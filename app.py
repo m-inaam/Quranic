@@ -25,7 +25,7 @@ pc = Pinecone(pinecone_api_key) # add your pinecone API key here
 index_name = 'quranic'
 index = pc.Index(index_name)
 
-limit = 1600
+limit = 3000
 
 def retrieve(query):
     xq = co.embed(
@@ -78,8 +78,8 @@ def complete(prompt):
   response = co.generate(
                           model='c4ai-aya',
                           prompt=prompt,
-                          max_tokens=2000,
-                          temperature=0.2,
+                          max_tokens=3000,
+                          temperature=0.4,
                           k=0,
                           stop_sequences=['\n\n'],
                           return_likelihoods='NONE'
