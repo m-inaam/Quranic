@@ -78,7 +78,7 @@ def complete(prompt):
   response = co.generate(
                           model='c4ai-aya',
                           prompt=prompt,
-                          max_tokens=600,
+                          max_tokens=2000,
                           temperature=0.2,
                           k=0,
                           stop_sequences=['\n\n'],
