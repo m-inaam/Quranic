@@ -25,7 +25,7 @@ To install Quranic, follow these steps:
 1. Clone the repository:
 
 ```
-git clone [https://github.com/yourusername/quranic.git](https://github.com/m-inaam/Quranic)
+git clone [https://github.com/m-inaam/Quranic]
 ```
 
 2. Install dependencies:
